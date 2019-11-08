@@ -1,0 +1,231 @@
+.main_header {
+	height: 50px;
+	background-color: #2d00b5;
+}
+
+.main_header .menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+}
+
+.main_header .menu ul li {
+	display: inline-block;
+}
+
+.main_header .menu ul li a {
+	text-decoration: none;
+	padding: 14px 15px;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.main_header .menu ul li a:hover {
+	color: #eee;
+	transition: all .4s ease-in-out;
+	transition-delay: .4s ease-in-out;
+}
+
+.main_header .menu ul li a::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	width: 0;
+	height: 3px;
+	background-color: #fff;
+	z-index: -1;
+	transition: all .4s ease-in-out;
+}
+
+.main_header .menu ul li a:hover::after {
+	left: 0;
+	width: 100%;
+}
+
+.main_header .menu ul li a.active {
+	border-bottom: 3px solid #fff;
+}
+
+/* Login Page */
+.inner_log {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+
+.main_header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main_header ul li {
+	display: inline-block;
+}
+
+.main_header li a {
+	color: #fff;
+}
+
+.tabs_menu {
+	padding: 20px 0;
+}
+
+.trip_btn {
+	width: 15%;
+}
+
+.btn_radio {
+	padding: 20px 0 10px;
+}
+
+.trip_btn input[type="radio"] {
+	margin-top: 0;
+}
+
+.trip_btn span {
+	padding-left: 10px;
+}
+
+.one-way .from label, 
+.one-way .to label, 
+.one-way .departure label, 
+.one-way .return label, 
+.one-way .passenger label, 
+.one-way .pay label {
+	color: #999;
+}
+
+.one-way .from select, 
+.one-way .to select, 
+.one-way .departure select, 
+.one-way .return select, 
+.one-way .passenger input[type="text"], 
+.one-way .pay input[type="text"] {
+	width: 100%;
+	height: 30px;
+}
+
+.carousel-inner .item img {
+	height: 500px;
+	object-fit: cover;
+}
+
+.main_footer {
+	padding: 0 0 20px 0;
+	background-color: #333;
+}
+
+.main_footer h3 {
+	color: #fff;
+}
+
+.main_footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main_footer ul li {
+	padding: 5px 0;
+}
+
+.main_footer ul li a {
+	color: #eee;
+}
+
+.main_footer .social_icons li a {
+	padding: 5px !important;
+}
+
+.main_footer .social_icons ul li a i {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 0 5px;
+	transition: all .5s ease-in-out;
+}
+
+.main_footer .social_icons ul li a .fa-facebook:hover {
+	background-color: #1877f2;
+	color: #fff;
+}
+
+.main_footer .social_icons ul li a .fa-twitter:hover {
+	background-color: #1da1f2;
+	color: #fff;
+}
+
+.main_footer .social_icons ul li a .fa-instagram:hover {
+	background-color: #c32aa3;
+	color: #fff;
+}
+
+.main_footer .social_icons ul li a .fa-linkedin:hover {
+	background-color: #007bb5;
+	color: #fff;
+}
+
+
+.Offers {
+	padding: 30px 0;
+}
+
+.Offers h3 {
+	text-align: center;
+	padding: 15px;
+}
+
+.Offers ._innr {
+	border: 1px solid #eee;
+	padding: 15px;
+	box-shadow: 0px 0px 5px 0px #ccc;
+	position: relative;
+	float: left;
+}
+
+.Offers ._innr p {
+	width: 80%;
+	float: left;
+	height: 65px;
+}
+
+.Offers ._innr .fa-credit-card {
+	float: left;
+	width: 20%;
+	font-size: 30px;
+	height: 65px;
+	text-align: center;
+}
+
+.Offers ._innr h4 {
+	position: relative;
+	float: left;
+}
+
+.Offers ._innr h4 a {
+	display: block;
+	width: 100%;
+}
+
+.Popular {
+	padding: 30px 0;
+}
+
+.Popular h3 {
+	text-align: center;
+	padding: 0 0 20px; /*padding: top(0) right(0) bottom(20px)*/
+}
+
+.Popular img {
+	width: 100%;
+}
